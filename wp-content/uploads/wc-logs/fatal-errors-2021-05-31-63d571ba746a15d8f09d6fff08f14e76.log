@@ -1,0 +1,38 @@
+2021-05-31T06:58:16+00:00 CRITICAL Uncaught WooCommerce\PayPalCommerce\ApiClient\Exception\RuntimeException: Could not create referral. in C:\xampp\htdocs\project1\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-api-client\src\Endpoint\class-partnerreferrals.php:96
+Stack trace:
+#0 C:\xampp\htdocs\project1\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-onboarding\src\Render\class-onboardingrenderer.php(66): WooCommerce\PayPalCommerce\ApiClient\Endpoint\PartnerReferrals->signup_link()
+#1 C:\xampp\htdocs\project1\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-onboarding\src\class-onboarding-rest-controller.php(311): WooCommerce\PayPalCommerce\Onboarding\Render\OnboardingRenderer->get_signup_link(true)
+#2 C:\xampp\htdocs\project1\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-onboarding\src\class-onboarding-rest-controller.php(124): WooCommerce\PayPalCommerce\Onboarding\Onboarding_REST_Controller->generate_signup_link('production', Array)
+#3 C:\xampp\htdocs\project1\wp-includes\rest-api\class-wp-r in C:\xampp\htdocs\project1\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-api-client\src\Endpoint\class-partnerreferrals.php on line 96
+
+2021-05-31T15:18:10+00:00 CRITICAL syntax error, unexpected 'add_shortcode' (T_STRING) in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1764
+
+2021-05-31T15:18:18+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php:1763
+Stack trace:
+#0 C:\xampp\htdocs\project1\wp-settings.php(528): include()
+#1 C:\xampp\htdocs\project1\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\project1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1763
+
+2021-05-31T15:21:43+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php:1762
+Stack trace:
+#0 C:\xampp\htdocs\project1\wp-includes\shortcodes.php(343): get_product_woocommerce('', '', 'wootest')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\project1\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(wootes...', 'do_shortcode_ta...', '<h2>Typography ...')
+#3 C:\xampp\htdocs\project1\wp-content\plugins\visualcomposer\visualcomposer\Modules\Elements\AjaxShortcode\Controller.php(106): do_shortcode('<h2>Typography ...')
+#4 [internal function]: VisualComposer\Modules\Elements\AjaxShortcode\Controller->render(Object(VisualComposer\Helpers\Request), Object(VisualComposer\Helpers\PostType), Object(VisualComposer\Helpers\Access\CurrentUser), '', Array, 'vcv:ajax:elemen...')
+#5 C:\xampp\htdocs\project1\wp-content\plugins\visualcomposer\visualcomposer\Framework\Container.php(63): ReflectionMethod->invokeArgs(Object(VisualComposer\Modules\Elem in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1762
+
+2021-05-31T15:21:44+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php:1762
+Stack trace:
+#0 C:\xampp\htdocs\project1\wp-includes\shortcodes.php(343): get_product_woocommerce('', '', 'wootest')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\project1\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(wootes...', 'do_shortcode_ta...', '<div class="vce...')
+#3 C:\xampp\htdocs\project1\wp-content\plugins\visualcomposer\visualcomposer\Modules\FrontView\FrontViewController.php(53): do_shortcode('<div class="vce...')
+#4 [internal function]: VisualComposer\Modules\FrontView\FrontViewController->VisualComposer\Modules\FrontView\{closure}(Array)
+#5 C:\xampp\htdocs\project1\wp-content\plugins\visualcomposer\visualcomposer\Modules\FrontView\FrontViewController.php(46): preg_replace_callback('/<!--vcv no for...', Object(Closure), '<!--vcv no form...')
+#6 [internal function]: VisualComposer\Modules\FrontView\FrontViewController->encode('<!--vcv in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1762
+
