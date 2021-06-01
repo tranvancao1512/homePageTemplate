@@ -1746,7 +1746,7 @@ function get_product_woocommerce()
 {
 	$args = array(
 		'post_type'      => 'product',
-		'posts_per_page' => 3,
+		'posts_per_page' => 1,
 		'product_cat'    => 'hoodies'
 	);
 
@@ -1759,9 +1759,35 @@ function get_product_woocommerce()
 		<?php if ($price_html = $product->get_price_html()) : ?>
 			<span class="price"><?php echo $price_html; ?></span>
 		<?php endif; ?>
+	<?php
+	endwhile;
+
+	wp_reset_query();
+}
+add_shortcode('wootest1', 'get_product_woocommerce');
+
+//
+
+function get_product_woocommerce2()
+{
+	$args = array(
+		'post_type'      => 'product',
+		'posts_per_page' => 1,
+		'product_cat'    => 'hoodies'
+	);
+
+	$loop = new WP_Query($args);
+
+	while ($loop->have_posts()) :
+		$loop->the_post();
+		global $product;
+		echo '<br /><a href="' . get_permalink() . '">'  . ' ' . get_the_title() . '</a>'; ?>
+		<?php if ($price_html = $product->get_price_html()) : ?>
+			<span class="price"><?php echo $price_html; ?></span>
+		<?php endif; ?>
 <?php
 	endwhile;
 
 	wp_reset_query();
 }
-add_shortcode('wootest', 'get_product_woocommerce');
+add_shortcode('wootest2', 'get_product_woocommerce2');

@@ -1,0 +1,14 @@
+2021-06-01T04:41:39+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1771
+
+2021-06-01T07:52:35+00:00 CRITICAL Cannot redeclare get_product() (previously declared in C:\xampp\htdocs\project1\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:234) in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1770
+
+2021-06-01T07:52:52+00:00 CRITICAL Cannot redeclare get_product() (previously declared in C:\xampp\htdocs\project1\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:234) in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1770
+
+2021-06-01T07:52:53+00:00 CRITICAL Cannot redeclare get_product() (previously declared in C:\xampp\htdocs\project1\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:234) in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1770
+
+2021-06-01T07:52:54+00:00 CRITICAL Cannot redeclare get_product() (previously declared in C:\xampp\htdocs\project1\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:234) in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1770
+
+2021-06-01T07:52:55+00:00 CRITICAL Cannot redeclare get_product() (previously declared in C:\xampp\htdocs\project1\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:234) in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1770
+
+2021-06-01T07:56:27+00:00 CRITICAL Cannot redeclare get_product() (previously declared in C:\xampp\htdocs\project1\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:234) in C:\xampp\htdocs\project1\wp-content\themes\truemag\functions.php on line 1770
+

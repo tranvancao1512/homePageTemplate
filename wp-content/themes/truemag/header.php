@@ -15,7 +15,9 @@
 	<title><?php wp_title('|', true, 'right'); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	<link rel="stylesheet" href=""/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css?fbclid=IwAR1AJ1IPEetbGcfOmwZ9UfZ5Djldd6PDJ2bHbYmzX7UrIKTVI2jyDbccG5w" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css?fbclid=IwAR1JuwduKgpZC2r0Xlv1UPhyz0yK47dGLPDZkkN7JoSnIkwMT3szY8L9Tmk" />
+
 	<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. 
 	?>
 	<!--[if lt IE 9]>
